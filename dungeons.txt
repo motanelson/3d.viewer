@@ -1,0 +1,3 @@
+The dragon awakens and devours you Endgame=dungeons.txt! 
+back=main.txt! 
+exit

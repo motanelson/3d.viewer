@@ -1,0 +1,4 @@
+Explore the dark forest=forest.txt! 
+Go to the tavern=tavern.txt! 
+Enter the dungeons=dungeons.txt!
+exit
