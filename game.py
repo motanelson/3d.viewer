@@ -13,6 +13,7 @@ def loads(s):
     if len(rrr)<2:
         return ""
     else:
+        
         return rrr[1]
 print("\033c\033[43;30m\n")
 print("Welcome brave knight the kingdom needs you")
@@ -24,6 +25,9 @@ while t:
     if s.find(".txt")>-1:
         back=s
         sss=s.split("!")
+        xo='explorer.exe "'+ os.getcwd()+"\\" +sss[0].replace(".txt",".mp4")+'"'
+        print(xo)
+        os.system (xo)
         s=loads(sss[0])
         
     else:
