@@ -66,7 +66,10 @@ def main():
                 x, y = evento.pos
                 count=0
                 for botao, proximo in botoes:
-                    sss=nivel[count].split("=")
+                    if count<len(nivel):
+                        sss=nivel[count].split("=")
+                    else:
+                        sss=[""]
                     if len(sss)>1:
                         proximo=sss[1]
                     else:
