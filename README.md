@@ -1,4 +1,4 @@
-# cmd.game
+# options.game
 
 
 command line game
