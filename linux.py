@@ -1,6 +1,8 @@
 import pygame
 import json
 import os
+import subprocess
+
 # Inicializar Pygame
 pygame.init()
 
@@ -22,7 +24,7 @@ def carregar_nivel(s):
     f1.close()
     rr=r.split("\n")
     ss=s.replace(".txt",".mp4")
-    os.system("vlc "+ss)
+    subprocess.Popen(["vlc",ss])
 
     return rr
 
