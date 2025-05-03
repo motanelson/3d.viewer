@@ -1,4 +1,0 @@
-meets an old wizard who gives him a magical portion=forest.txt= 
-back=main.txt= 
-exit
-
