@@ -1,4 +1,0 @@
-You enter the tavern and hear rumors about a dragon,The innkeeper warns that the dungeon is dangerous=tavern.txt= 
-back=main.txt=
-exit
-
