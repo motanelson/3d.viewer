@@ -106,7 +106,7 @@ def main():
 
         now = pygame.time.get_ticks()
         if now - last_rotate > 2000:
-            angle = (angle + 90) % 360
+            angle = (angle + 45) % 360
             last_rotate = now
 
         glPushMatrix()
