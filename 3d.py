@@ -56,7 +56,7 @@ def load_3d_file(filepath):
                 for x in range(x_size):
                     color = data[i]
                     if color != 0:
-                        cubes.append((x, y, z, color))
+                        cubes.append((x, y_size-y, z, color))
                     i += 1
         return cubes
 
